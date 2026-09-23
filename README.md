@@ -1,6 +1,6 @@
 # Blackjack
 
-I made this Python project for Leaving Certificate Computer Science in 2023. It has a single-player mode, a two-player mode and a simulation mode that compares different ways of playing.
+I made this Python Blackjack project in 2023. It has a single-player mode, a two-player mode and a simulation mode that compares different ways of playing.
 
 ## What it does
 
@@ -13,7 +13,7 @@ I used Python for the game and simulation, CSV files to store results, and Matpl
 
 ## Opening the project
 
-Open the project folder in VS Code and open `LC.py`. You need Python, the VS Code Python extension and Matplotlib installed. The version of Matplotlib used for this project is listed in `requirements.txt`.
+Open the project folder in VS Code and open `blackjack.py`. You need Python, the VS Code Python extension and Matplotlib installed. The version of Matplotlib used for this project is listed in `requirements.txt`.
 
 With a Python environment containing Matplotlib selected in VS Code, use **Run Python File** to start the game. The questions appear in the terminal panel at the bottom of VS Code. Type your answers there and press Enter.
 
@@ -47,9 +47,7 @@ The `examples` folder contains saved results and charts from earlier runs. These
 
 ![Example chart from a previous simulation with the second computer standing at 17](examples/Sim17_Pie_Chart.png)
 
-## Things to improve
-
-This is an old school project, and there are parts I would improve when revisiting it:
+## Possible improvements:
 
 - Make the replay code simpler and save each result straight after a game.
 - Generate the simulation charts once at the end instead of after every round.
